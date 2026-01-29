@@ -20,16 +20,13 @@
     <!-- width/height は “マーカー座標系の単位” なので、実物mmとは一致しない -->
     <!-- まずは見た目で合わせる前提で仮置きする -->
     <a-plane
-      position="0 0 0"
+      position="1.25 0.01 0"
       rotation="-90 0 0"
-      width="1.7"
-      height="1.0"
-      color="#FFFFFF"
-      material="side: double; opacity: 1.0;">
+      width="3.5"
+      height="2.12"
+      color="#ffffff"
+      material="side: double; opacity: 1.0">
     </a-plane>
-
-    <!-- 調整用：中心確認（不要なら消す） -->
-    <a-box position="0 0.03 0" width="0.05" height="0.05" depth="0.05" color="#ff0000"></a-box>
   </a-marker>
 
   <a-entity camera></a-entity>
